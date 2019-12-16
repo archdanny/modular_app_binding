@@ -1,4 +1,4 @@
-# modular_app_binding
+# Modular App binding epoxy
 
 Sample project for resource not found error in generated epoxy models in multi modular android app. 
 
