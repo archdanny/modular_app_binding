@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FeatureActivity">
+
+    <com.airbnb.epoxy.EpoxyRecyclerView
+        android:paddingTop="@dimen/fab_margin"
+        android:id="@+id/feature_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/cell_feature_one"
+        />
+</LinearLayout>
+
