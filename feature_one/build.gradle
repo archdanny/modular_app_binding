@@ -11,7 +11,6 @@ androidExtensions {
     experimental = true
 }
 
-
 android {
     compileSdkVersion 29
     defaultConfig {
@@ -28,13 +27,6 @@ android {
     dataBinding {
         enabled = true
     }
-
-//        sourceSets {
-//            main {
-//                java.srcDirs += '../app/src/main/java/com/example/modularapp/binders'
-//            }
-//        }
-
 }
 
 dependencies {
