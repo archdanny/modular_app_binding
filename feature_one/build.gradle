@@ -29,12 +29,11 @@ android {
         enabled = true
     }
 
-    //add comment
-        sourceSets {
-            main {
-                java.srcDirs += '../app/src/main/java/com/example/modularapp/binders'
-            }
-        }
+//        sourceSets {
+//            main {
+//                java.srcDirs += '../app/src/main/java/com/example/modularapp/binders'
+//            }
+//        }
 
 }
 

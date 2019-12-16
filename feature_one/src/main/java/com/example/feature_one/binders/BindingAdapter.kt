@@ -1,4 +1,4 @@
-package com.example.modularapp.binders
+package com.example.feature_one.binders
 
 import android.view.View
 import androidx.constraintlayout.widget.ConstraintLayout

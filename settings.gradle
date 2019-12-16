@@ -1,2 +1,2 @@
-include ':app', ':feature_1'
+include ':app', ':feature_one'
 rootProject.name='ModularApp'

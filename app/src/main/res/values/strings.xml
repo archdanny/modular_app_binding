@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">ModularApp</string>
     <string name="action_settings">Settings</string>
-    <string name="title_feature_1">Feature 1</string>
+    <string name="title_feature_one">Feature one</string>
 </resources>

@@ -30,7 +30,7 @@ android {
         }
     }
 
-    dynamicFeatures = [":feature_1"]
+    dynamicFeatures = [":feature_one"]
 
     dataBinding {
         enabled = true

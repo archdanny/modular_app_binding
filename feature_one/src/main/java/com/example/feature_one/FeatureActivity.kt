@@ -1,4 +1,4 @@
-package com.example.feature_1
+package com.example.feature_one
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -12,7 +12,6 @@ class FeatureActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_feature)
-//        setSupportActionBar(toolbar)
 
         val controller = FeatureActivityEpoxyController()
         feature_recyclerview.setController(controller)
@@ -50,5 +49,4 @@ class FeatureActivityEpoxyController : TypedEpoxyController<List<String>>() {
             }
         }
     }
-
 }
